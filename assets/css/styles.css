@@ -44,22 +44,9 @@ p { margin: 0; }
 
 .wrap { max-width: var(--wrap); margin: 0 auto; padding: 0 var(--gutter); }
 
-/* Cuadrícula de fondo (columnas de 64 px) */
-.grid-dark {
-  background-color: var(--navy);
-  background-image:
-    linear-gradient(rgba(255,255,255,.08) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(255,255,255,.08) 1px, transparent 1px);
-  background-size: 64px 64px;
-  background-position: center top;
-}
-.grid-light {
-  background-image:
-    linear-gradient(rgba(11,31,63,.06) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(11,31,63,.06) 1px, transparent 1px);
-  background-size: 64px 64px;
-  background-position: center top;
-}
+/* Fondos (sin cuadrícula) */
+.grid-dark { background-color: var(--navy); }
+.grid-light { }
 
 /* Botones */
 .btn {
